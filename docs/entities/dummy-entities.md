@@ -114,11 +114,11 @@ You can use whatever behaviors you like, but here is a good template. The import
 	"format_version": "1.10.0",
 	"render_controllers": {
 		"controller.render.dummy": {
-			"geometry": "Geometry.default",
-			"textures": ["Texture.default"],
+			"geometry": "geometry.default",
+			"textures": ["texture.default"],
 			"materials": [
 				{
-					"*": "Material.default"
+					"*": "material.default"
 				}
 			]
 		}
